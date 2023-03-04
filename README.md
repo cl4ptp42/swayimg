@@ -6,7 +6,7 @@ In a [Sway](https://swaywm.org) compatible mode, the viewer creates an "overlay"
 above the currently active window, which gives the illusion that you are opening
 the image directly in a terminal window.
 
-![Screenshot](https://raw.githubusercontent.com/artemsen/swayimg/master/.github/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/cl4ptp42/swayimg/master/.github/screenshot.png)
 
 ## Supported image formats
 
@@ -81,7 +81,7 @@ following directories:
 - `$XDG_CONFIG_DIRS/swayimg`
 - `/etc/xdg/swayimg`
 
-Sample file is available [here](https://github.com/artemsen/swayimg/blob/master/extra/swayimgrc).
+Sample file is available [here](https://github.com/cl4ptp42/swayimg/blob/master/extra/swayimgrc).
 
 See `man swayimgrc` for details.
 
@@ -95,7 +95,7 @@ Arch users can install the program from community repository: [swayimg](https://
 
 ## Build
 
-![CI](https://github.com/artemsen/swayimg/workflows/CI/badge.svg)
+[![CI](https://github.com/cl4ptp42/swayimg/workflows/CI/badge.svg)](https://github.com/cl4ptp42/swayimg/actions/workflows/ci.yml)
 
 The project uses Meson build system:
 ```

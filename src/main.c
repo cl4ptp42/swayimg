@@ -154,7 +154,7 @@ static int parse_cmdargs(int argc, char* argv[], struct config* cfg)
                 break;
             case 'v':
                 puts(APP_NAME " version " APP_VERSION ".");
-                puts("https://github.com/artemsen/swayimg");
+                puts("https://github.com/cl4ptrap42/swayimg");
                 printf("Supported formats: %s.\n", supported_formats);
                 return 0;
             case 'h':
